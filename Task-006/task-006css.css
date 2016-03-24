@@ -1,0 +1,36 @@
+
+.bodys {
+    width: 980px;
+    height: 1386px;
+    border: solid;
+    position: relative;
+    left: 50%;
+    margin-left: -490px;
+}
+
+.div0 {
+    width: 892px;
+    height: 61px;
+    left: 50%;
+    margin-left: -446px;
+    position: relative;
+    float: left;
+}
+
+.div1 {
+    width: 892px;
+    height: 331px;
+    border-top: #938e8c solid 2px;
+    left: 50%;
+    top: 61px;
+    margin-left: -446px;
+    position: relative;
+}
+
+.div2 {
+    position: relative;
+    width: 892px;
+    height: 301px;
+    margin-top: 30px;
+
+}
