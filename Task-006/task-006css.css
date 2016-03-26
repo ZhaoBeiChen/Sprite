@@ -2,7 +2,6 @@
 .bodys {
     width: 980px;
     height: 1386px;
-    border: solid;
     position: relative;
     left: 50%;
     margin-left: -490px;
@@ -34,3 +33,4 @@
     margin-top: 30px;
 
 }
+

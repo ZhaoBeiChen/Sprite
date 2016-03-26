@@ -4,6 +4,26 @@
     <link href="task-006css.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <title>task-006</title>
+    <style>
+        #contant p:first-letter{
+            font-size: 150%;
+        }
+
+        #contant p{
+            margin: 0 0;
+        }
+
+        p:after {
+            text-decoration: underline;
+        }
+
+        #contant {
+            font-size: 16px;
+            color: #000000;
+            font-family: '微软雅黑';
+            margin-top: 5px;;
+        }
+    </style>
 </head>
 <body>
 <div class="bodys">
@@ -19,11 +39,16 @@
     </div>
     <div class="div1">
         <div class="div2">
-            <div style=" width: 641px; height: 301px; background-image: url(001.jpg); ">
-                <div style="width: 191px; height: 301px; background-color: forestgreen; opacity: 0.4; float: left;"></div>
+            <div style=" position: absolute; width: 641px; height: 301px; background-image: url(001.jpg);  float: left;">
+                <div style=" position: absolute; width: 191px; height: 301px; background-color: forestgreen; opacity: 0.4; float: left;"></div>
                 <div style="width: 191px; height: 301px; background-color: red; opacity: 0.4; position: relative;margin-left: 450px; "></div>
             </div>
-            <div style=""></div>
+            <div style="position: absolute; width: 203px; height: 301px; border-top: #cc8091 solid 2px; margin-left: 689px; float: left;">
+                <div id="contant" style=" float: left;">
+                <p>ABOUT</p>
+                    <p> TECHNONLGY</p>
+                    </div>
+            </div>
         </div>
     </div>
 </div>
