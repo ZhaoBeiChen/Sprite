@@ -1,0 +1,54 @@
+*{ margin:0px;padding:0px;list-style:none;}
+img{display:block; width:300px; height:200px;}
+body{ background:#ddd; font-family:"微软雅黑"}
+input{ outline:none;}
+a{ text-decoration:none;}
+.f1{ float:left;}
+.clear{ zoom:1;}
+.clear:after{content:""; display:block; clear:both;}
+/*common style*/
+.header{height:60px; line-height:60px; width:100%; background:#000; position: relative;}
+.header .logo{ float:left; margin-top:10px; margin-left:30px;}
+.header .nav{ float:right; width:370px;}
+.content{ margin-right: 450px; margin-left: 10px;}
+.content>div{ border:solid 1px #999; border-right:solid 2px #000; border-bottom:solid 2px #000; padding:20px; background:#fff; margin-top:20px;margin: 20px auto;}
+.content>div>h2{ height:60px; line-height:60px; font-size:22px;}
+.content>div>h3{ height:40px; line-height:40px; color:#666; font-size:18px;}
+.content>div>p{ color:#999; height:30px; line-height:30px; font-size:12px;}
+.content>div>div{ line-height:24px; font-size:14px;}
+.content>div li{ height:30px; line-height:30px;}
+.footer{ height:60px; line-height:50px; color:#fff; font-size:12px; text-align:center; background:#000; margin-top:20px;}
+/*common Style  end*/
+.nav li{ width:70px; text-align:center; margin-right:20px; float:left;}
+.nav li.active a{ color:#F63;}
+.nav li a{ color:#fff;  font-size:14px;}
+.project li{ text-indent:24px;}
+.project a{ color:#333;}
+.project a:hover{ color:red; text-decoration:underline;}
+.common .images dl{ padding:10px; text-align:center; width:200px; border:solid 1px #ddd; margin-bottom:10px;}
+.common .images dl dt{ font-size:12px; font-weight:bold; height:30px; line-height:20px;}
+.common .images dl dd img{ width:200px; height:auto;}
+.rank ol li{ font-weight:bold; }
+.table table td{ height:20px; text-indent:20px; line-height:20px;}
+.table table thead{ color:#fff;}
+.table table tbody{ color:#000;}
+.form{ width:600px; margin:0px auto 10px;}
+.form .text{ text-align:right; width:100px; height:30px;}
+.form .input{ height:30px; margin-left:10px;}
+.form .t{ color:#999; font-size:12px; line-height:10px;}
+form .sub{ width:100%; height:40px; line-height:40px; color:#fff; font-size:16px; background:#39F; margin:10px auto; border-radius:10px; border:none;}
+.zhang{ height:50px; width:150px;}
+#sidebar{
+    background-color: #ffffff;
+    width: 350px;
+    margin: 20px;
+   padding: 0px;
+    float: right;
+    text-align: right;
+    position:absolute;
+    right: 30px;
+}
+#sidebar h2{
+     border-left:3px solid #BBBBBB;
+    padding: 10px;
+}
