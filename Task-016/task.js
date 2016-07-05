@@ -21,9 +21,9 @@ var i = 0;
 function addAqiData() {
     var mychar1 = document.getElementById("aqi-city-input");
     var mychar2 = document.getElementById("aqi-value-input");
-    aqiData[i][0] = mychar1;
-    aqiData[i][1] = mychar2;
-    i++;
+    aqiData[i] = mychar1.value;
+    aqiData[i+1] = mychar2.value;
+    i = i+2;
 }
 
 /**
@@ -31,9 +31,9 @@ function addAqiData() {
  */
 function renderAqiList() {
     var my_table = document.getElementById("aqi-table");
-    for(var n=0; n<my_table.length; n++){
-        my_table.innerHTML+="<li>"+aqiData[n][0]+":"+aqiData[n][1]+"</li>";
-    }
+    for(var j=0; j<=i; j=j+2)
+        my_table.innerHTML += '<tr> <td >' + aqiData[j-2] + '</td> <td >' + aqiData[j-1] + '</td> <td> <button onclick="delBtnHandle()">delete</button> </td> </tr>';
+
 }
 
 /**
@@ -53,6 +53,7 @@ function delBtnHandle() {
     // do sth.
 
     renderAqiList();
+
 }
 
 function init() {
